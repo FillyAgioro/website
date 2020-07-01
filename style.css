@@ -1,0 +1,54 @@
+@font-face {
+    src: url("https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf");
+    font-family: 'SFPixelateRegular';
+}
+body {
+    font-family: 'SFPixelateRegular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 5em;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: dashed;
+    color: #00eab5;
+}
+
+nav {
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    text-align: right;
+    margin-right: 2em;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul a {
+    color: #00eab5;
+    text-align: center;
+    padding: .3em .5em;
+    text-decoration: none;
+}
+
+nav ul a:hover, nav ul a:focus {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: block;
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 5em;
+    right: 5em;
+}
+
+footer > p {
+    margin-left: 1em;
+}
