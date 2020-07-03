@@ -1,5 +1,5 @@
 @import url(https://emoji-css.afeld.me/emoji.css);
-
+ 
 @import url(https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css);
 
 @font-face {
@@ -22,6 +22,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* nav tag*/
+
 nav {
   padding: 0;
   overflow: hidden;
@@ -37,7 +39,7 @@ nav ul li {
 }
 
 nav ul a {
-  color: #00eab5;
+  color: rgb(0, 234, 181);
   text-align: center;
   padding: 0.3em 0.5em;
   text-decoration: none;
@@ -49,6 +51,8 @@ nav ul a:focus {
   color: white;
   text-decoration: none;
 }
+
+/* main */
 
 main,
 #social-media {
@@ -75,12 +79,17 @@ a .im {
   text-decoration: none;
 }
 
+/* article tag */
+
 #social-media {
   margin-top: 3em;
 }
 
-#social-media a, #social-media a:hover {
-    text-decoration: none;
+
+#social-media a,
+#social-media a:hover,
+#social-media a:focus {
+  text-decoration: none;
 }
 
 .support a {
@@ -95,8 +104,10 @@ a .im {
   color: #00eab5;
 }
 
+/* footer */
+
 footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   background-color: black;

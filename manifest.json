@@ -1,0 +1,116 @@
+{
+    "name": "Aman Varma",
+    "short_name": "aav",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2e89c2f7-ea7e-7afb-610b-5c18dab0db6d.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5acc3144-11bd-e9ee-8223-0fb6bdf2b2e2.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6d47d30f-e991-fe8c-73a5-4129d374ded7.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1117f0fd-440d-7287-5400-737f812c2e82.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c42fcfe2-7a33-6bad-d312-243bf441933b.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8f773818-a7c0-07db-d380-ab42957ad6ea.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a690db70-d53e-4106-db5f-6f52bd035884.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/98dc3341-30ba-a0bd-8f74-739caaf60487.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b79766d5-6505-83bb-72ff-ee4c6ba63b9e.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9f822159-5718-3509-ef6c-58c0c6bd6ca4.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/15096115-e6bb-bab6-fc4a-d0e4a5ae9e1b.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/75ca248a-5704-c694-6b01-45e5a92511d9.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c71b593f-76df-1c80-f27a-3051f68c2611.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/65a6dee8-1497-3cf2-a56c-317e7742b96a.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/03d7aee5-e74f-b31c-23d7-b18ba2521492.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4530625d-fc0b-1279-f7e6-c37f4e67f48b.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c30acd3a-ca1b-619b-bbf6-2ac75f70dfa6.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a98f723f-4b62-13cf-7fdb-e28223398f3c.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#00eab5",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "https://amanajayvarma.vercel.app/",
+    "url": "https://amanajayvarma.vercel.app/",
+    "lang": "English",
+    "screenshots": [],
+    "description": "My portfolio website",
+    "scope": "AAV",
+    "orientation": "portrait"
+}
