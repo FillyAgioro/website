@@ -1,0 +1,95 @@
+@import url(https://emoji-css.afeld.me/emoji.css);
+@import url(https://cdn.iconmonstr.com/1.3.0/css/iconmostr-iconic-font.min.css);
+@font-face {
+  src: url("https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf");
+  font-family: "SFPixelateRegular";
+}
+body {
+  font-family: "SFPixelateRegular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 3em;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: underline dashed;
+  color: #00eab5;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation bar */
+nav {
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 0.5em;
+}
+nav ul li {
+  display: inline;
+}
+nav ul a {
+  color: #00eab5;
+  text-align: center;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+}
+nav ul a:hover, nav ul a:focus {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Content */
+main h1 {
+  font-size: 5em;
+  text-decoration: 10px underline dashed #00eab5;
+}
+main h1:hover {
+  text-decoration: 10px underline #00eab5;
+}
+main img {
+  position: relative;
+  width: 0.6em;
+}
+main, #social-media {
+  text-align: center;
+}
+
+a .im {
+  font-size: 3em;
+  text-decoration: none;
+}
+
+/* Article */
+#social-media {
+  margin: 3em;
+}
+#social-media a:hover, #social-media a:focus {
+  text-decoration: none;
+}
+
+.support a {
+  text-decoration: none;
+  padding: 0.3em 0.5em;
+  color: white;
+  background-color: black;
+}
+.support a:hover, .support a:focus {
+  color: #00eab5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+footer p margin-left {
+  margin-left: 1%;
+}
