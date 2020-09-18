@@ -1,6 +1,6 @@
 {
-    "name": "Aman Varma",
-    "short_name": "aav",
+    "name": "Filly Agioro",
+    "short_name": "FA",
     "icons": [
         {
             "src": "/images/android-chrome-192x192.png",
@@ -104,13 +104,12 @@
         }
     ],
     "theme_color": "#00eab5",
-    "background_color": "#ffffff",
+    "background_color": "#000000",
     "display": "standalone",
-    "start_url": "https://amanajayvarma.vercel.app/",
-    "url": "https://amanajayvarma.vercel.app/",
+    "start_url": "https://fillyagioro.vercel.app/",
+    "url": "https://fillyagioro.vercel.app/",
     "lang": "English",
-    "screenshots": [],
     "description": "My portfolio website",
-    "scope": "AAV",
+    "scope": "Info about me",
     "orientation": "portrait"
 }
