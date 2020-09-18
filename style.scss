@@ -1,21 +1,24 @@
+$default-color: #00eab5;
+
 @import url(https://emoji-css.afeld.me/emoji.css);
 
-@import url(https://cdn.iconmonstr.com/1.3.0/css/iconmostr-iconic-font.min.css);
+@import url(https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css);
 
 @font-face {
-	src: url("https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf");
+	src: url(https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf);
 	font-family: "SFPixelateRegular";
 }
 
 body {
 	font-family: "SFPixelateRegular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	margin: 0 3em;
+	margin: 1em;
 	box-sizing: border-box;
+	font-size: 2.9vh;
 }
 
 a {
 	text-decoration: underline dashed;
-	color: #00eab5;
+	color: $default-color;
 
 	&:hover {
 		text-decoration: underline;
@@ -39,7 +42,7 @@ nav {
 
 	ul {
 		a {
-		color: #00eab5;
+		color: $default-color;
 		text-align: center;
 		padding: 0.3em 0.5em;
 		text-decoration: none;
@@ -57,11 +60,12 @@ nav {
 
 main {
 	h1 {
-		font-size: 5em;
-		text-decoration: 10px underline dashed #00eab5;
+		margin-top: 1.5em;
+		font-size: 3em;
+		text-decoration: 10px underline dashed $default-color;
 
-		&:hover {
-			text-decoration: 10px underline #00eab5;
+		&:hover, &:focus {
+			text-decoration: 10px underline $default-color;
 		}
 	}
 
@@ -75,44 +79,80 @@ main {
 	}
 }
 
-a .im {
-	font-size: 3em;
-	text-decoration: none;
-}
-
 /* Article */
 
 #social-media {
-	margin: 3em;
-	a{
-		&:hover, &:focus {
-			text-decoration: none;
-		}
+	margin: {
+		top: 2em;
+		bottom: 3em;
+	};
+	a {
+	text-decoration: none;
+	}
+
+	.icon {
+		font-size: 2.5em;
+		line-height: 1.3em;
 	}
 }
 
 .support a {
+	font-size: 2em;
 	text-decoration: none;
-	padding: .3em .5em;
+	padding: .2em .3em;
 	color: white;
 	background-color: black;
 	
 	&:hover, &:focus {
-		color: #00eab5;
+		color: $default-color;
 	}
 }
+
+.svg-telegram {
+	background: {
+		image: url(/photos/telegram.svg);
+		repeat: no-repeat;
+		size: 2.8em;
+	};
+	width: 2em;
+	height: 2em;
+	padding: 2em;
+	padding-right: 1.3em;
+	margin-left: .4em;
+}
+
+.svg-pixilart {
+	background: {
+		image: url(/photos/pixilart.svg);
+		repeat: no-repeat;
+		size: 3em;
+	};
+	padding: 1.9em;
+}
+
+.svg-elementary {
+	background: {
+		image: url(/photos/elementaryOS.svg);
+		repeat: no-repeat;
+		size: 3em;
+	};
+	width: 4em;
+	padding: 2em;
+}
+
+/* Footer */
 
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	background-color: black;
+	background: black;
+	padding: .001em;
 	width: 100%;
 	color: white;
+	font-size: .6em;
 
 	p {
-		margin-left {
-			margin-left: 1%;
-		}
+			margin-left: 2%;
 	}
 }
