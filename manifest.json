@@ -6,7 +6,7 @@
 	"theme_color": "#00eab5",
 	"background_color": "#ffffff",
 	"display": "standalone",
-	"start_url": "https://amanajayvarma.vercel.app/",
+	"start_url": "/",
 	"url": "https://amanajayvarma.vercel.app/",
 	"lang": "English",
 	"screenshots": [],
