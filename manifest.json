@@ -14,10 +14,7 @@
 	"scope": "/",
 	"orientation": "portrait",
 	"default_locale": "en",
-
 	"content_security_policy": "default-src/logo 'self'",
-	"x-frame-options": "DENY",
-	
 	"offline_enabled": true,
 	"omnibox": {
 		"keyword": "fa"
