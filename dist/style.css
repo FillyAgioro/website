@@ -4,6 +4,7 @@
 @font-face {
   src: url(/src/font/dogica.otf);
   font-family: "DogicaRegular";
+  font-display: swap;
 }
 body {
   font-family: "DogicaRegular", monospace;
@@ -39,7 +40,7 @@ main h1:hover, main h1:focus {
 }
 main img {
   height: 4em;
-  width: 3.9em;
+  width: 4em;
 }
 
 /* Article */
