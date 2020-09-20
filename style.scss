@@ -1,24 +1,30 @@
-$default-color: #00eab5;
+@charset "UTF-8";
 
-@import url(https://emoji-css.afeld.me/emoji.css);
-
-@import url(https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css);
+@import url(/src/icon/css/fontawesome.css);
+@import url(/src/icon/css/brands.css);
+@import url(/src/icon/css/solid.css);
 
 @font-face {
-	src: url(https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf);
-	font-family: "SFPixelateRegular";
+	src: url(/src/font/dogica.otf);
+	font-family: "DogicaRegular";
 }
 
+$default-color: #00eab5;
+$second-color: black;
+
 body {
-	font-family: "SFPixelateRegular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	margin: 1em;
+	font-family: "DogicaRegular", monospace;
+	margin: 0;
+	margin-bottom: 3em;
 	box-sizing: border-box;
-	font-size: 2.9vh;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: center;
 }
 
 ::selection {
 	background: $default-color;
-	color: black;
+	color: $second-color;
 }
 
 a {
@@ -30,12 +36,13 @@ a {
 	}
 }
 
-/* Main Content */
+/* MAIN */
 
 main {
 	h1 {
-		font-size: 3em;
+		font-size: 25em;
 		text-decoration: 10px underline dashed $default-color;
+		line-height: 1.2em;
 
 		&:hover, &:focus {
 			text-decoration: 10px underline $default-color;
@@ -43,26 +50,24 @@ main {
 	}
 
 	img {
-		position: relative;
-		width: .7em;
-	}
-	
-	@at-root &, #social-media {
-		text-align: center;
+		height: 4em;
+		width: 3.9em;
 	}
 }
-
 /* Article */
 
 #social-media {
-	margin-bottom: 2em;
 	a {
 	text-decoration: none;
 	}
 
-	.icon {
+	.fab, .fas {
 		font-size: 2.5em;
 		line-height: 1.3em;
+	}
+
+	i {
+		display: none;
 	}
 }
 
@@ -71,38 +76,38 @@ main {
 	text-decoration: none;
 	padding: .2em .3em;
 	color: white;
-	background-color: $default-color;
+	background-color: $second-color;
 	
 	&:hover, &:focus {
-		color: $default-color;
-		background-color: black;
+		color: $second-color;
+		background-color: $default-color;
 	}
 }
 
-.svg-elementary {
-	background: {
-		image: url(/photos/elementaryOS.svg);
-		repeat: no-repeat;
-		size: 2.5em;
-	};
-	width: 1em;
-	padding: 1.6em;
-	padding-right: 1.4em;
-}
-
-/* Footer */
+/* FOOTER */
 
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	background: black;
-	padding: .001em;
+	background: $second-color;
 	width: 100%;
 	color: white;
-	font-size: .6em;
+	font-size: .7em;
+}
 
-	p {
-			margin-left: 2%;
+@media (prefers-color-scheme: dark) {
+	body {
+		color: white;
+		background-color: $second-color;
+	}
+
+	::selection {
+		color: white;
+	}
+
+	.support a {
+		background-color: white;
+		color: $second-color;
 	}
 }

@@ -1,14 +1,18 @@
-@import url(https://emoji-css.afeld.me/emoji.css);
-@import url(https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css);
+@import url(/src/icon/css/fontawesome.css);
+@import url(/src/icon/css/brands.css);
+@import url(/src/icon/css/solid.css);
 @font-face {
-  src: url(https://fontlibrary.org/assets/fonts/pixelated/da9eda566d65f23a7b73fd59a976b28d/60ad0534c4f6733fca1d6246d200b10c/SFPixelateRegular.ttf);
-  font-family: "SFPixelateRegular";
+  src: url(/src/font/dogica.otf);
+  font-family: "DogicaRegular";
 }
 body {
-  font-family: "SFPixelateRegular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 1em;
+  font-family: "DogicaRegular", monospace;
+  margin: 0;
+  margin-bottom: 3em;
   box-sizing: border-box;
-  font-size: 2.9vh;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  text-align: center;
 }
 
 ::selection {
@@ -24,32 +28,30 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Main Content */
+/* MAIN */
 main h1 {
-  font-size: 3em;
+  font-size: 25em;
   text-decoration: 10px underline dashed #00eab5;
+  line-height: 1.2em;
 }
 main h1:hover, main h1:focus {
   text-decoration: 10px underline #00eab5;
 }
 main img {
-  position: relative;
-  width: 0.7em;
-}
-main, #social-media {
-  text-align: center;
+  height: 4em;
+  width: 3.9em;
 }
 
 /* Article */
-#social-media {
-  margin-bottom: 2em;
-}
 #social-media a {
   text-decoration: none;
 }
-#social-media .icon {
+#social-media .fab, #social-media .fas {
   font-size: 2.5em;
   line-height: 1.3em;
+}
+#social-media i {
+  display: none;
 }
 
 .support a {
@@ -57,33 +59,36 @@ main, #social-media {
   text-decoration: none;
   padding: 0.2em 0.3em;
   color: white;
-  background-color: #00eab5;
-}
-.support a:hover, .support a:focus {
-  color: #00eab5;
   background-color: black;
 }
-
-.svg-elementary {
-  background-image: url(/photos/elementaryOS.svg);
-  background-repeat: no-repeat;
-  background-size: 2.5em;
-  width: 1em;
-  padding: 1.6em;
-  padding-right: 1.4em;
+.support a:hover, .support a:focus {
+  color: black;
+  background-color: #00eab5;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   background: black;
-  padding: 0.001em;
   width: 100%;
   color: white;
-  font-size: 0.6em;
+  font-size: 0.7em;
 }
-footer p {
-  margin-left: 2%;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: black;
+  }
+
+  ::selection {
+    color: white;
+  }
+
+  .support a {
+    background-color: white;
+    color: black;
+  }
 }
