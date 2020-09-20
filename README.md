@@ -11,8 +11,8 @@ I use this project to personal portfolio website. Most of the website templates 
 
 ## Built With
 
-* [Devicon](https://github.com/devicons/devicon/) - Icon
-* [Fontlibary](https://fontlibrary.org/en/font/pixelated) - Fonts
+* [Font Awsome](https://fontawesome.com/) - Icon
+* [Fontlibary](https://fontlibrary.org/en/font/dogica) - Fonts
 
 ## Support
 
