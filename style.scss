@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url(/src/icon/css/fontawesome.css);
+@import url(/src/icon/css/brands.css);
+@import url(/src/icon/css/solid.css);
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+@font-face {
+	src: url(/src/font/dogica.otf);
+	font-family: "DogicaRegular";
+	font-display: swap;
+}
+
+$brand-color: #00eab5;
+$bg-color: black;
+$font-color: white;
+
+::selection {
+	background: $brand-color;
+	color: $font-color;
+}
+
+body {
+	font-family: "DogicaRegular", monospace;
+	background: $bg-color;
+	color: $font-color;
+	text-align: center;
+	line-height: 1.9em;
+}
+
+.content {
+	max-width: 35em;
+	border: 2px solid $brand-color;
+	margin: 1em auto;
+}
+
+a {
+	text-decoration: none;
+	color: $bg-color;
+}
+
+span {
+	display: inline-block;
+	font-size: 3em;
+	color: $brand-color;
+}
+
+.support {
+	@extend .content;
+
+	&__money {
+		background: $brand-color;
+		color: $bg-color;
+		padding: .5em;
+		padding-bottom: .8em;
+		margin-right: .3em;
+		// line-height: 2em;
+	}
+}
+
+footer {
+	background: $brand-color;
+	padding: .1em;
+	@extend .content;
+}

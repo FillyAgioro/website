@@ -1,0 +1,51 @@
+@import url(/src/icon/css/fontawesome.css);
+@import url(/src/icon/css/brands.css);
+@import url(/src/icon/css/solid.css);
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@font-face {
+  src: url(/src/font/dogica.otf);
+  font-family: "DogicaRegular";
+  font-display: swap;
+}
+::selection {
+  background: #00eab5;
+  color: white;
+}
+
+body {
+  font-family: "DogicaRegular", monospace;
+  background: black;
+  color: white;
+  text-align: center;
+  line-height: 1.9em;
+}
+
+.content, footer, .support {
+  max-width: 35em;
+  border: 2px solid #00eab5;
+  margin: 1em auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  display: inline-block;
+  font-size: 3em;
+  color: #00eab5;
+}
+
+.support__money {
+  background: #00eab5;
+  color: black;
+  padding: 0.5em;
+  padding-bottom: 0.8em;
+  margin-right: 0.3em;
+}
+
+footer {
+  background: #00eab5;
+  padding: 0.1em;
+}
