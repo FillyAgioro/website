@@ -22,9 +22,9 @@ To support this project development please consider [Donating](https://kutt.it/C
 
 ## 👥 Contributing
 
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [`CONTRIBUTING.md`](https://github.com/FillyAgioro/.github/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-See also the list of [contributors](@all) who participated in this project.
+See also the list of [Contributors](@all) who participated in this project.
 
 ## 📄️ License
 
