@@ -47,15 +47,14 @@ span {
 
 .support {
 	@extend .content;
+}
 
-	&__money {
-		background: $brand-color;
-		color: $bg-color;
-		padding: .5em;
-		padding-bottom: .8em;
-		margin-right: .3em;
-		// line-height: 2em;
-	}
+.link-box {
+	background: $brand-color;
+	color: $bg-color;
+	padding: .5em;
+	padding-bottom: .8em;
+	margin-right: .3em;
 }
 
 footer {
