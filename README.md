@@ -24,7 +24,7 @@ To support this project development please consider [Donating](https://kutt.it/C
 
 Please read [`CONTRIBUTING.md`](https://github.com/FillyAgioro/.github/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-See also the list of [Contributors](@all) who participated in this project.
+See also the list of [Contributors](https://github.com/FillyAgioro/minimalist-website/graphs/contributors) who participated in this project.
 
 ## 📄️ License
 
